@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Nucleos\Form\Type;
 
-use Doctrine\ORM\Mapping\ClassMetadataInfo;
+use Doctrine\ORM\Mapping\ClassMetadata;
 use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\ChoiceList\Loader\CallbackChoiceLoader;
@@ -64,7 +64,7 @@ final class DoctrineDiscriminatorType extends AbstractType
 
         $meta = $manager->getClassMetadata($class);
 
-        \assert($meta instanceof ClassMetadataInfo);
+        \assert($meta instanceof ClassMetadata);
 
         foreach ($meta->discriminatorMap as $key => $value) {
             $choices[$key] = $key;
