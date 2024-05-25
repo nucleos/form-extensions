@@ -2,27 +2,25 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## 6.4.0 - TBD
+## 6.4.0 - 2024-05-25
 
-### Added
 
-- Nothing.
+-----
 
-### Changed
+### Release Notes for [6.4.0](https://github.com/nucleos/nucleos-form-extensions/milestone/15)
 
-- Nothing.
+Feature release (minor)
 
-### Deprecated
+### 6.4.0
 
-- Nothing.
+- Total issues resolved: **0**
+- Total pull requests resolved: **2**
+- Total contributors: **1**
 
-### Removed
+#### dependency
 
-- Nothing.
-
-### Fixed
-
-- Nothing.
+ - [491: Update dependency psalm/plugin-phpunit to ^0.19.0](https://github.com/nucleos/nucleos-form-extensions/pull/491) thanks to @renovate[bot]
+ - [490: Add support for doctrine/orm v3](https://github.com/nucleos/nucleos-form-extensions/pull/490) thanks to @renovate[bot]
 
 ## 6.3.0 - 2023-12-05
 
